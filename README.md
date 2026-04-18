@@ -15,52 +15,99 @@ The project follows a modular and scalable Python package structure:
 heuristic-search-lab/
 
 ├── README.md # Project overview and instructions
+
 ├── requirements.txt # Python dependencies
+
 ├── .gitignore # Git ignore file
+
 ├── setup.py # Package setup
+
 ├── LICENSE # MIT License
+
 │
+
 ├── src/ # Source code
+
 │ ├── __init__.py
+
 │ ├── grid_world.py # Grid environment
+
 │ ├── heuristics.py # Heuristic functions
+
 │ ├── a_star.py # A* implementation
+
 │ ├── evaluator.py # Evaluation metrics
+
 │ └── visualizer.py # Visualization tools
+
 │
+
 ├── notebooks/ # Jupyter notebooks
+
 │ ├── 01_Introduction.ipynb
+
 │ ├── 02_Heuristics_Visualized.ipynb
+
 │ ├── 03_A_Star_Implementation.ipynb
+
 │ ├── 04_Empirical_Evaluation.ipynb
+
 │ └── 05_Final_Project.ipynb
+
 │
+
 ├── experiments/ # Experiment scripts
+
 │ ├── run_all_experiments.py
+
 │ ├── compare_heuristics.py
+
 │ ├── test_admissibility.py
+
 │ └── benchmark_mazes.py
+
 │
+
 ├── tests/ # Unit tests
+
 │ ├── __init__.py
+
 │ ├── test_grid_world.py
+
 │ ├── test_heuristics.py
+
 │ ├── test_a_star.py
+
 │ └── test_consistency.py
+
 │
+
 ├── results/ # Output directory (gitignored)
+
 │ ├── figures/
+
 │ ├── data/
+
 │ └── logs/
+
 │
+
 ├── docs/ # Documentation
+
 │ ├── tutorial.md
+
 │ ├── api_reference.md
+
 │ └── experiments_guide.md
+
 │
+
 └── scripts/ # Utility scripts
+
  ├── setup_environment.sh
+ 
  ├── run_tests.sh
+ 
  └── clean_results.sh
  
 
