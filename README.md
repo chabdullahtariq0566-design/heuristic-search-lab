@@ -9,8 +9,11 @@ Domain: Artificial Intelligence / Pathfinding & Optimization
 This repository contains a comprehensive framework for implementing, testing, and evaluating Heuristic Search Algorithms. The core focus is the A Search Algorithm* and an empirical analysis of how different heuristic functions—Manhattan, Euclidean, and Chebyshev—affect search efficiency, computational cost, and path optimality in 2D grid environments.
 
 🏗️ Project Structure
+
 The project follows a modular and scalable Python package structure:
+
 heuristic-search-lab/
+
 ├── README.md # Project overview and instructions
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Git ignore file
@@ -59,6 +62,7 @@ heuristic-search-lab/
  ├── setup_environment.sh
  ├── run_tests.sh
  └── clean_results.sh
+ 
 
 🚀 Getting Started
 
